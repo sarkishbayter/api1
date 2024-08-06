@@ -13,7 +13,7 @@ app.listen(PORT, () => {
   console.log(`server started on port ${PORT}`);
 });
 
-app.get('/', function (req, res) {
+app.get('/students', function (req, res) {
   res.json(data)
 });
  
